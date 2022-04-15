@@ -1,0 +1,7 @@
+version: '3.5'
+
+services:
+  ovpn:
+    image: ${DOCKER_REGISTRY_URL}/ovpn:latest
+    build:
+      context: ./
